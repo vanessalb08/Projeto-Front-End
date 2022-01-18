@@ -50,9 +50,10 @@ export default class LeadCollector extends Component{
                     </FormGroup>
                     <FormGroup>
                         <Label for="observacoes"> Observações: </Label>
-                        <Input
-                        type="text"
+                        <textarea
+                        class="form-control"
                         id="observacoes"
+                        rows="3"
                         onChange={e => this.observacoes = e.target.value}
                         placeholder="Alguma observação que queira nos contar?"
                         />
