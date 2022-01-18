@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+.App{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin: 2%;
+    margin-top: 2%;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+    text-align: center;
+}
+body{
+    background-image: url(https://www.hdwallpapersfreedownload.com/uploads/large/3d-and-abstract/purple-abstract-background.jpg);
+    background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.titulo{
+    color: white;
+    display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.Collector{
 
-.App-link {
-  color: #61dafb;
-}
+    background-color: rgb(165, 105, 214, 0.8) ;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    min-height: 600px;
+    max-height: 600px;
+    min-width: 400px;
+    max-width: 400px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    
+}
+.CaixaLogin{
+    background-color: rgba(111, 192, 224, 0.8) ;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    min-height: 500px;
+    min-width: 400px;
+    
+
+    color: rgb(255, 255, 255);
+    padding: 20px;
 }
