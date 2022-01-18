@@ -33,6 +33,8 @@ export default class Login extends Component{
                 throw new Error("Login inválido")
             }).then(token => {
                 localStorage.setItem('token', token);
+                //dentro do push ionforma qual o caminho que o usuário deve ir caso a requisição dê certo
+                this.props.history.push("/dashboard");
             }).catch( e => {
                 this.setState({message: e.message})
                 console.log(this.email, this.password)
