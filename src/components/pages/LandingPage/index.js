@@ -2,7 +2,7 @@ import react , { Component } from "react";
 import {Form, FormGroup, Label, Input, Button, Alert} from 'reactstrap'; //informa entre {} o que quer importar
 import Header from "../../Header";
 
-export default class LeadCollector extends Component{
+export default class LandingPage extends Component{
 
     constructor(props) {
         super(props)
